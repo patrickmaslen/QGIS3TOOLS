@@ -1,0 +1,40 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.
+# Mandatory items:
+
+[general]
+name=DBCA QGIS Tools 3
+qgisMinimumVersion=3.16
+description=DBCA Tools for QGIS v 3.16
+version=3.0.0
+author=Patrick Maslen
+email=patrick.maslen@dbca.wa.gov.au
+
+about=Dev version 3.0.0, dated June-2021
+
+tracker=http://bugs
+repository=http://repo
+# end of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Plugins
+icon=resources/icons/DPAW.png
+
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
+# If the plugin can run on QGIS Server.
+server=False
